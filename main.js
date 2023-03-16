@@ -1,12 +1,12 @@
-// import homePage from '../controllers/homeController.js';
-// import workPage from '../controllers/workController.js';
+import homeController from './src/controllers/homeController.js';
+import './style.css';
 
 routie({
   '': () => {
-    homePage();
+    homeController();
   },
   work: () => {
-    workPage();
+    console.log('work');
   },
 });
 
