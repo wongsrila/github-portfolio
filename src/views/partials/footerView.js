@@ -3,7 +3,7 @@ const footerView = () => {
     <footer>
       <h2>LOOKING FOR A POWERFUL WEBSITE?</h2>
       <p class="sub-text">WE DESIGN STUNNING WEBSITES THAT CAPTURE YOUR AUDIENCE'S ATTENTION AND CONVERT THEM INTO CUSTOMERS. OUR DESIGNS ARE CLEAN & MODERN.</p>
-      <a href="/#contact" class="btn">Get in touch <span>></span></a>
+      <a href="mailto:jiraphong.wongsrila@gmail.com" class="btn">Get in touch <span>></span></a>
     </footer>
     <section class="sub__footer">
       <ul>
