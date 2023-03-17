@@ -34,6 +34,7 @@ const homeView = () => {
 const workView = (item) => {
   return /*html*/ `
     <a href="#work/${item.name}">${item.name}</a>
+    <p>${item.topics}</p>
   `;
 };
 

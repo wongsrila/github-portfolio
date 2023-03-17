@@ -15,7 +15,7 @@ const homeController = () => {
 
   const getData = (data) => {
     // Loop the data and create a list of items
-    data.forEach((item) => {
+    data.map((item) => {
       let li = document.createElement('li');
       li.innerHTML += workView(item);
       ul.appendChild(li);

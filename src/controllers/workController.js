@@ -14,8 +14,9 @@ const workController = () => {
   const ul = document.querySelector('.work__list');
 
   const getData = (data) => {
+    console.log(data);
     // Loop the data and create a list of items
-    data.forEach((item) => {
+    data.map((item) => {
       let li = document.createElement('li');
       li.innerHTML += workListView(item);
       ul.appendChild(li);
