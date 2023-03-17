@@ -4,11 +4,17 @@ const headerView = () => {
       <span class='nav__logo'><a href="#">FIRST WONGSRILA</a></span>
       <nav> 
         <ul>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><input type="checkbox" name="menu" id="menu" /><label for="menu">MENU</label></li>
         </ul>
+        <section class="nav__menu">
+          <ul>
+            <li><a href="/#">HOME</a></li>
+            <li><a href="/#work">WORK</a></li>
+            <li><a href="/#services">SERVICES</a></li>
+            <li><a href="/#blog">BLOG</a></li>
+            <li><a href="/#contact">CONTACT</a></li>
+          </ul>
+        </section>
       </nav>
     </header>
   `;

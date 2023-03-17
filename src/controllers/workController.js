@@ -1,9 +1,9 @@
-import { homeView, workView } from '../views/homeView';
+import { workView, workListView } from '../views/workView';
 
-const homeController = () => {
+const workController = () => {
   const app = document.getElementById('app');
 
-  app.innerHTML = homeView();
+  app.innerHTML = workView();
 
   // Fetch the data from the github api
   fetch('https://api.github.com/users/wongsrila/repos')
@@ -17,10 +17,10 @@ const homeController = () => {
     // Loop the data and create a list of items
     data.forEach((item) => {
       let li = document.createElement('li');
-      li.innerHTML += workView(item);
+      li.innerHTML += workListView(item);
       ul.appendChild(li);
     });
   };
 };
 
-export default homeController;
+export default workController;
